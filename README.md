@@ -20,7 +20,7 @@ ci_cd_devops_prototype/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/janavi90/ci_cd_devops_prototype.git
+git clone https://github.com/Sharath01979/ci_cd_devops_prototype.git
 cd ci_cd_devops_prototype
 ```
 
@@ -40,10 +40,10 @@ streamlit run llama.py
 Build and run the Docker container:
 ```bash
 # Build Docker image
-docker buildx build -t janavi90/llama:latest .
+docker buildx build -t Sharath01979/llama:latest .
 
 # Run Docker container
-docker run -p 8501:8501 janavi90/llama:latest
+docker run -p 8501:8501 Sharath01979/llama:latest
 ```
 
 ### Step 5: Deploy to Kubernetes
